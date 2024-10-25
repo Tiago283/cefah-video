@@ -43,7 +43,7 @@ def main(page: ft.Page):
 
     caixa_celsius = ft.TextField(label="Celsius", label_style=ft.TextStyle(color=vermelho), expand=True, keyboard_type=teclado_numerico, border_color=vermelho, color=vermelho)
     caixa_fahrenheit = ft.TextField(label="Fahrenheit", label_style=ft.TextStyle(color=azul), expand=True, keyboard_type=teclado_numerico, border_color=azul, color=azul)
-    logo = ft.Image(src=f"CeFah/assets/icon.png", expand=True, expand_loose=True, width=200, height=200)
+    logo = ft.Image(src=f"cefah-video/assets/icon.png", expand=True, expand_loose=True, width=200, height=200)
     btn_converter_celsius = ft.FilledButton(text="Celsius", expand=True, style=btn_estilo_celsius, on_click=converter_celsius)
     btn_converter_fahrenheit = ft.FilledButton(text="Fahrenheit", expand=True, style=btn_estilo_fahrenheit, on_click=converter_fahrenheit)
 
